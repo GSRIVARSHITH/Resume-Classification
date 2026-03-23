@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload PDF</title>
+</head>
+<body>
+
+    <h2>Upload PDF to Python Backend</h2>
+
+    <input type="file" id="pdfInput" accept="application/pdf">
+    <br><br>
+
+    <button onclick="uploadPDF()">Send to Python</button>
+
+    <div id="status" style="margin-bottom:8px;color:#b00;"></div>
+    <pre id="output" style="white-space: pre-wrap; background:#f8f8f8; padding:8px; border-radius:4px; max-height:400px; overflow:auto;"></pre>
+
+    <script src="sheets.js"></script>
+</body>
+</html>
